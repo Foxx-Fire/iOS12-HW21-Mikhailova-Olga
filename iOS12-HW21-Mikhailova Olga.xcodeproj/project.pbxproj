@@ -12,6 +12,17 @@
 		0BC099A32BC70BEA006F0DB5 /* MarvellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC099A22BC70BEA006F0DB5 /* MarvellViewController.swift */; };
 		0BC099A82BC70BED006F0DB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BC099A72BC70BED006F0DB5 /* Assets.xcassets */; };
 		0BC099AB2BC70BED006F0DB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BC099A92BC70BED006F0DB5 /* LaunchScreen.storyboard */; };
+		0BC099BA2BC71D62006F0DB5 /* ExtensionColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC099B92BC71D62006F0DB5 /* ExtensionColor.swift */; };
+		0BC099BC2BC71D93006F0DB5 /* NetworkManagerAF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC099BB2BC71D93006F0DB5 /* NetworkManagerAF.swift */; };
+		0BC099BF2BC71FCC006F0DB5 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 0BC099BE2BC71FCC006F0DB5 /* Alamofire */; };
+		0BC099C12BC71FCC006F0DB5 /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 0BC099C02BC71FCC006F0DB5 /* AlamofireDynamic */; };
+		0BC099C42BC7200C006F0DB5 /* ImageServise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC099C32BC7200C006F0DB5 /* ImageServise.swift */; };
+		0BC099C62BC7202D006F0DB5 /* ModelMarvell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC099C52BC7202D006F0DB5 /* ModelMarvell.swift */; };
+		0BC099C82BC72049006F0DB5 /* MarvellCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC099C72BC72049006F0DB5 /* MarvellCell.swift */; };
+		0BC099CA2BC72063006F0DB5 /* MarvellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC099C92BC72063006F0DB5 /* MarvellView.swift */; };
+		0BC099CC2BC7207D006F0DB5 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC099CB2BC7207D006F0DB5 /* DetailView.swift */; };
+		0BC099CE2BC72150006F0DB5 /* AnimationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC099CD2BC72150006F0DB5 /* AnimationFactory.swift */; };
+		0BC099D02BC72199006F0DB5 /* NetworkManagerMarvel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC099CF2BC72199006F0DB5 /* NetworkManagerMarvel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +33,15 @@
 		0BC099A72BC70BED006F0DB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BC099AA2BC70BED006F0DB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0BC099AC2BC70BED006F0DB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BC099B92BC71D62006F0DB5 /* ExtensionColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionColor.swift; sourceTree = "<group>"; };
+		0BC099BB2BC71D93006F0DB5 /* NetworkManagerAF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerAF.swift; sourceTree = "<group>"; };
+		0BC099C32BC7200C006F0DB5 /* ImageServise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageServise.swift; sourceTree = "<group>"; };
+		0BC099C52BC7202D006F0DB5 /* ModelMarvell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelMarvell.swift; sourceTree = "<group>"; };
+		0BC099C72BC72049006F0DB5 /* MarvellCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvellCell.swift; sourceTree = "<group>"; };
+		0BC099C92BC72063006F0DB5 /* MarvellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvellView.swift; sourceTree = "<group>"; };
+		0BC099CB2BC7207D006F0DB5 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		0BC099CD2BC72150006F0DB5 /* AnimationFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationFactory.swift; sourceTree = "<group>"; };
+		0BC099CF2BC72199006F0DB5 /* NetworkManagerMarvel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerMarvel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BC099BF2BC71FCC006F0DB5 /* Alamofire in Frameworks */,
+				0BC099C12BC71FCC006F0DB5 /* AlamofireDynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +116,8 @@
 		0BC099B52BC71C77006F0DB5 /* NetworkManager */ = {
 			isa = PBXGroup;
 			children = (
+				0BC099BB2BC71D93006F0DB5 /* NetworkManagerAF.swift */,
+				0BC099CF2BC72199006F0DB5 /* NetworkManagerMarvel.swift */,
 			);
 			path = NetworkManager;
 			sourceTree = "<group>";
@@ -101,6 +125,7 @@
 		0BC099B62BC71C89006F0DB5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0BC099C52BC7202D006F0DB5 /* ModelMarvell.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -108,6 +133,9 @@
 		0BC099B72BC71C91006F0DB5 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				0BC099B92BC71D62006F0DB5 /* ExtensionColor.swift */,
+				0BC099C32BC7200C006F0DB5 /* ImageServise.swift */,
+				0BC099CD2BC72150006F0DB5 /* AnimationFactory.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -116,6 +144,9 @@
 			isa = PBXGroup;
 			children = (
 				0BC099A22BC70BEA006F0DB5 /* MarvellViewController.swift */,
+				0BC099C72BC72049006F0DB5 /* MarvellCell.swift */,
+				0BC099C92BC72063006F0DB5 /* MarvellView.swift */,
+				0BC099CB2BC7207D006F0DB5 /* DetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -136,6 +167,10 @@
 			dependencies = (
 			);
 			name = "iOS12-HW21-Mikhailova Olga";
+			packageProductDependencies = (
+				0BC099BE2BC71FCC006F0DB5 /* Alamofire */,
+				0BC099C02BC71FCC006F0DB5 /* AlamofireDynamic */,
+			);
 			productName = "iOS12-HW21-Mikhailova Olga";
 			productReference = 0BC0999B2BC70BEA006F0DB5 /* iOS12-HW21-Mikhailova Olga.app */;
 			productType = "com.apple.product-type.application";
@@ -164,6 +199,9 @@
 				Base,
 			);
 			mainGroup = 0BC099922BC70BEA006F0DB5;
+			packageReferences = (
+				0BC099BD2BC71FCC006F0DB5 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 0BC0999C2BC70BEA006F0DB5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -190,9 +228,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BC099CA2BC72063006F0DB5 /* MarvellView.swift in Sources */,
+				0BC099D02BC72199006F0DB5 /* NetworkManagerMarvel.swift in Sources */,
 				0BC099A32BC70BEA006F0DB5 /* MarvellViewController.swift in Sources */,
 				0BC0999F2BC70BEA006F0DB5 /* AppDelegate.swift in Sources */,
+				0BC099CC2BC7207D006F0DB5 /* DetailView.swift in Sources */,
 				0BC099A12BC70BEA006F0DB5 /* SceneDelegate.swift in Sources */,
+				0BC099C42BC7200C006F0DB5 /* ImageServise.swift in Sources */,
+				0BC099CE2BC72150006F0DB5 /* AnimationFactory.swift in Sources */,
+				0BC099BA2BC71D62006F0DB5 /* ExtensionColor.swift in Sources */,
+				0BC099C62BC7202D006F0DB5 /* ModelMarvell.swift in Sources */,
+				0BC099BC2BC71D93006F0DB5 /* NetworkManagerAF.swift in Sources */,
+				0BC099C82BC72049006F0DB5 /* MarvellCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +452,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0BC099BD2BC71FCC006F0DB5 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0BC099BE2BC71FCC006F0DB5 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0BC099BD2BC71FCC006F0DB5 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		0BC099C02BC71FCC006F0DB5 /* AlamofireDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0BC099BD2BC71FCC006F0DB5 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = AlamofireDynamic;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0BC099932BC70BEA006F0DB5 /* Project object */;
 }
